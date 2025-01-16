@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main
+      style="
+        max-width: 500px;
+        margin: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <h2>Make a pokemon image search</h2>
+
+      <div style="width: 100%; display: flex; gap: 5px; margin-top: 10px">
+        <input
+          type="text"
+          id="pokemonName"
+          placeholder="Enter pokemon name"
+          style="width: 80%; height: 40px"
+        />
+        <button onclick="fetchPokemon()" style="width: 20%">Enter</button>
+      </div>
+
+      <img
+        src=""
+        alt="Pokemon Image"
+        id="pokemonImage"
+        style="display: none"
+        ,
+        width="300px"
+      />
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
